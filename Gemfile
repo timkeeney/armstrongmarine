@@ -15,7 +15,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Twitter Bootstrap 
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '~> 3.3.4'
 gem 'autoprefixer-rails'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
