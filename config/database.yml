@@ -85,4 +85,5 @@ production:
   <<: *default
   database: armstrongmarine_production
   username: deploy
-  password: ami.1512015
+  secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>
+
