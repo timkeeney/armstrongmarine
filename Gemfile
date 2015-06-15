@@ -52,4 +52,5 @@ group :development, :test do
 end
 
 gem 'puma'
+gem 'foreman'
 
