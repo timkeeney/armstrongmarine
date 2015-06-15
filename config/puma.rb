@@ -9,7 +9,7 @@
 # end
 
 environment 'production'
-daemonize false
+daemonize true
 
 pidfile 'tmp/pids/puma.pid'
 state_path 'tmp/pids/puma.state'
@@ -18,7 +18,7 @@ state_path 'tmp/pids/puma.state'
 
 # quiet
 threads 0, 16
-bind 'unix://tmp/sockets/puma.sock'
+bind 'unix:///home/deploy/Sites/armstrongmarine/tmp/sockets/armstrongmarine-puma.sock'
 
 # ssl_bind '127.0.0.1', '9292', { key: path_to_key, cert: path_to_cert }
 
