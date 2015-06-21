@@ -10,19 +10,20 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <div class="fill" style="background-image:url(<%= asset_path 'Storm.png' %>);"></div>
+            <%= image_tag("Storm.png", alt: "Storm") %>
+            
             <div class="carousel-caption">
                 <h2>The Storm</h2>
                 <p> The Storm is the finest example of a twenty-first century combat boat</p>
             </div>
         </div>
         <div class="item">
-            <div class="fill" style="background-image:url(<%= asset_path 'naiad.jpg'%>);"></div>
+            <%= image_tag("naiad.jpg", alt: "naiad") %>
             
             
         </div>
         <div class="item">
-            <div class="fill" style="background-image:url(<%= asset_path 'ami-nc.jpg'%>);"></div>
+            <%= image_tag("ami-nc.jpg", alt: "Storm") %>
         </div>
     </div>
 
