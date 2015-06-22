@@ -1,0 +1,51 @@
+<!-- Header Carousel -->
+<header id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <%= image_tag("Storm.png", alt: "Storm") %>
+            
+            <div class="carousel-caption">
+                <h2>The Storm</h2>
+                <p> The Storm is the finest example of a twenty-first century combat boat</p>
+            </div>
+        </div>
+        <div class="item">
+            <%= image_tag("bow_lander.jpg", alt: "Bow Lander") %>
+             <div class="carousel-caption">
+                <h2>Water Taxi</h2>
+                <p>front loading ramp for comfort and ease of access of your passengers</p>
+            </div>            
+        </div>
+        <div class="item">
+            <%= image_tag("pilot_boat.jpg", alt: "Pilot Boat") %>
+            <div class="carousel-caption">
+                <h2>Pilot Boats</h2>
+                <p>Specifically tailored for safe pilot operations</p>
+            </div> 
+        </div>
+        <div class="item">
+            <%= image_tag("ams_exc.jpg", alt: "AMS") %>
+            <div class="carousel-caption">
+                <h2>Transportation</h2>
+                <p>Performance to meet the rigorous demands of the sea</p>
+            </div> 
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</header>
